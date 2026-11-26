@@ -5,7 +5,7 @@ Output : out/transcripts.json = {"<id>": {text, secs, words, wpm, pauses_2s, lon
           avg_logprob, low_conf_words, segments:[...]}}
 URL dan isi transkrip tidak pernah dicetak ke log.
 """
-import json, os, re, subprocess, sys, time, urllib.request
+import json, os, re, sys, time, urllib.request
 
 from faster_whisper import WhisperModel
 
@@ -23,10 +23,10 @@ for it in items:
     iid = re.sub(r"[^A-Za-z0-9_-]", "", str(it.get("id", "")))[:80] or "x"
     t0 = time.time()
     try:
-        raw = f"audio/{iid}.bin"; wav = f"audio/{iid}.wav"
+        raw = f"audio/{iid}.bin"
         urllib.request.urlretrieve(it["url"], raw)
-        subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-y", "-i", raw, "-ac", "1", "-ar", "16000", wav], check=True)
-        segs, info = model.transcribe(wav, language="en", beam_size=5, word_timestamps=True,
+        # faster-whisper mendekode webm/m4a/mp3 sendiri lewat PyAV (tanpa ffmpeg)
+        segs, info = model.transcribe(raw, language="en", beam_size=5, word_timestamps=True,
                                       vad_filter=False, initial_prompt=PROMPT, condition_on_previous_text=False)
         segs = list(segs)
         words = [w for s in segs for w in (s.words or [])]
@@ -48,6 +48,7 @@ for it in items:
         }
         print(f"{iid}: ok ({n} words, {secs:.0f}s audio, {time.time()-t0:.0f}s)")
     except Exception as e:  # noqa: BLE001
-        res[iid] = {"error": type(e).__name__}
-        print(f"{iid}: error {type(e).__name__}", file=sys.stderr)
+        msg = re.sub(r"https?://\S+", "<url>", str(e))[:200]
+        res[iid] = {"error": f"{type(e).__name__}: {msg}"}
+        print(f"{iid}: error {type(e).__name__}: {msg}", file=sys.stderr)
 json.dump(res, open("out/transcripts.json", "w"), ensure_ascii=False)
