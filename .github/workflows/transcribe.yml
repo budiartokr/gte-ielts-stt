@@ -1,0 +1,55 @@
+name: transcribe
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "ID unik pekerjaan (dipakai sebagai nama artifact)"
+        required: true
+      job:
+        description: 'JSON {"items":[{"id":"...","url":"..."}]} (signed URL berlaku 2 jam)'
+        required: true
+      model:
+        description: "Model faster-whisper"
+        default: "small.en"
+run-name: transcribe ${{ inputs.job_id }}
+permissions:
+  contents: read
+concurrency:
+  group: transcribe
+  cancel-in-progress: false
+jobs:
+  stt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Cache model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-${{ inputs.model }}-v1
+      - run: pip install -r requirements.txt
+      - name: Mask signed URLs
+        env:
+          JOB: ${{ inputs.job }}
+        run: |
+          python - <<'PY'
+          import json, os
+          for it in json.loads(os.environ["JOB"]).get("items", []):
+              print("::add-mask::" + it.get("url", ""))
+          PY
+      - name: Transcribe
+        env:
+          JOB: ${{ inputs.job }}
+          MODEL: ${{ inputs.model }}
+        run: python transcribe.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: transcripts-${{ inputs.job_id }}
+          path: out/transcripts.json
+          retention-days: 1
