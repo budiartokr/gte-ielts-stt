@@ -8,6 +8,9 @@ on:
       job:
         description: 'JSON {"items":[{"id":"...","url":"..."}]} (signed URL berlaku 2 jam)'
         required: true
+      upload_url:
+        description: "Signed upload URL Supabase untuk hasil (ai/<job_id>.json)"
+        required: true
       model:
         description: "Model faster-whisper"
         default: "small.en"
@@ -38,6 +41,7 @@ jobs:
         env:
           JOB: ${{ inputs.job }}
         run: |
+          echo "::add-mask::${{ inputs.upload_url }}"
           python - <<'PY'
           import json, os
           for it in json.loads(os.environ["JOB"]).get("items", []):
@@ -48,8 +52,10 @@ jobs:
           JOB: ${{ inputs.job }}
           MODEL: ${{ inputs.model }}
         run: python transcribe.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: transcripts-${{ inputs.job_id }}
-          path: out/transcripts.json
-          retention-days: 1
+      - name: Kirim hasil ke Supabase
+        env:
+          UPLOAD_URL: ${{ inputs.upload_url }}
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" -X PUT -H "Content-Type: application/json" -H "x-upsert: true" --data-binary @out/transcripts.json "$UPLOAD_URL")
+          echo "upload status $code"
+          test "$code" = "200"
