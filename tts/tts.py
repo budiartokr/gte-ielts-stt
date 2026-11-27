@@ -45,7 +45,7 @@ for n in sets:
         v = s["v"]
         nar = v == NAR
         out.append(silence(1.0 if (nar or prev == NAR) else 0.5))
-        out.append(synth(s["t"], v, 0.92 if nar else 0.96))
+        out.append(synth(s["t"], v, float(os.environ.get("SPEED_NAR", "0.86")) if nar else float(os.environ.get("SPEED", "0.88"))))
         prev = v
     out.append(silence(1.5))
     wav = np.concatenate(out)
