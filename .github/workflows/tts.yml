@@ -1,0 +1,67 @@
+name: tts
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "ID unik pekerjaan"
+        required: true
+      sets:
+        description: "Nomor set, dipisah koma (mis. 3,4)"
+        default: "3,4"
+      uploads:
+        description: 'JSON {"<file lokal>": "<signed upload URL Supabase>"}'
+        required: true
+run-name: tts ${{ inputs.job_id }}
+permissions:
+  contents: read
+concurrency:
+  group: tts
+  cancel-in-progress: false
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: tts/requirements.txt
+      - name: Cache model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: kokoro-whisper-small-v1
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg >/dev/null
+      - run: pip install -r tts/requirements.txt
+      - name: Mask signed URLs
+        env:
+          UPLOADS: ${{ inputs.uploads }}
+        run: |
+          python - <<'PY'
+          import json, os
+          for u in json.loads(os.environ["UPLOADS"]).values():
+              print("::add-mask::" + u)
+          PY
+      - name: Buat audio (Kokoro) + cek ulang (Whisper)
+        env:
+          SETS: ${{ inputs.sets }}
+        run: python tts/tts.py
+      - name: Kirim file ke Supabase
+        env:
+          UPLOADS: ${{ inputs.uploads }}
+        run: |
+          python - <<'PY'
+          import json, os, subprocess, sys
+          ct = {".mp3": "audio/mpeg", ".png": "image/png", ".json": "application/json"}
+          bad = 0
+          for f, u in json.loads(os.environ["UPLOADS"]).items():
+              typ = ct.get(os.path.splitext(f)[1], "application/octet-stream")
+              code = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "-X", "PUT",
+                                     "-H", f"Content-Type: {typ}", "-H", "x-upsert: true", "--data-binary", "@" + f, u],
+                                    capture_output=True, text=True).stdout
+              print(f, code)
+              bad += code != "200"
+          sys.exit(1 if bad else 0)
+          PY

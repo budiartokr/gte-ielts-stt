@@ -1,0 +1,471 @@
+{
+"set": 3,
+"segments": [
+{
+"v": "bm_george",
+"t": "IELTS Listening practice test. GTE Practice Set 3."
+},
+{
+"v": "bm_george",
+"t": "In this test, you will hear a number of different recordings and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions, and you will have a chance to check your work. All the recordings will be played once only. The test is in four parts. Now turn to Part 1."
+},
+{
+"v": "bm_george",
+"t": "Part 1. You will hear a man phoning a removal company to book a house move. First, you have some time to look at questions 1 to 5."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "You will see that there is an example that has been done for you. On this occasion only, the conversation relating to the example is played first."
+},
+{
+"v": "bf_emma",
+"t": "Good morning, Harbour Removals, Clare speaking. How can I help?"
+},
+{
+"v": "bm_daniel",
+"t": "Oh, hello. I'm moving house next month and I'd like to book a removal, please."
+},
+{
+"v": "bf_emma",
+"t": "Certainly. Is that a full house move, or just a few items?"
+},
+{
+"v": "bm_daniel",
+"t": "A full house move. It's a three-bedroom house."
+},
+{
+"v": "bm_george",
+"t": "The type of move is a house, so house has been written in the space. Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time. Listen carefully and answer questions 1 to 5."
+},
+{
+"v": "bf_emma",
+"t": "Good morning, Harbour Removals, Clare speaking. How can I help?"
+},
+{
+"v": "bm_daniel",
+"t": "Oh, hello. I'm moving house next month and I'd like to book a removal, please."
+},
+{
+"v": "bf_emma",
+"t": "Certainly. Is that a full house move, or just a few items?"
+},
+{
+"v": "bm_daniel",
+"t": "A full house move. It's a three-bedroom house."
+},
+{
+"v": "bf_emma",
+"t": "Lovely. Can I start with your name?"
+},
+{
+"v": "bm_daniel",
+"t": "Yes, it's David Pelham."
+},
+{
+"v": "bf_emma",
+"t": "Could you spell your surname for me?"
+},
+{
+"v": "bm_daniel",
+"t": "Sure. P, E, L, H, A, M."
+},
+{
+"v": "bf_emma",
+"t": "Thank you, Mr Pelham. And what's the address you're moving from?"
+},
+{
+"v": "bm_daniel",
+"t": "It's 14 Larch Street. That's L, A, R, C, H. It's in the north of the town, near the hospital."
+},
+{
+"v": "bf_emma",
+"t": "Fine. And when would you like to move? Have you got a date?"
+},
+{
+"v": "bm_daniel",
+"t": "Well, originally we were planning on the sixteenth of March, but the solicitor says the paperwork won't be ready by then. So it'll be the twenty-third of March."
+},
+{
+"v": "bf_emma",
+"t": "The twenty-third. That's a Saturday, which is fine, though Saturdays are busy, so it's good you're booking early. Now, are there any particularly large or heavy items we should know about?"
+},
+{
+"v": "bm_daniel",
+"t": "Let me think. We've got a big wardrobe, but that comes apart. The real problem is the piano. It was my grandmother's, and it's very heavy."
+},
+{
+"v": "bf_emma",
+"t": "Right, a piano. We'll need to send an extra member of staff for that, and we'll bring special straps. What about parking at the house? Our van is quite long."
+},
+{
+"v": "bm_daniel",
+"t": "There's no space at the front, because it's a narrow street with cars on both sides. But there's a lane behind the house, and the van could park there. It's wide enough, I've seen delivery lorries use it."
+},
+{
+"v": "bf_emma",
+"t": "That's very helpful. I'll make a note that the driver should use the lane."
+},
+{
+"v": "bm_george",
+"t": "Before the conversation continues, you have some time to look at questions 6 to 10."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen and answer questions 6 to 10."
+},
+{
+"v": "bf_emma",
+"t": "Now, we also offer a packing service. Some customers prefer to pack everything themselves, but others ask us to do some of the rooms."
+},
+{
+"v": "bm_daniel",
+"t": "I thought about that. We'll be fine with the books and clothes, and the bedrooms are easy. But the kitchen is the worst room, with all the glasses and plates. Could your team do that?"
+},
+{
+"v": "bf_emma",
+"t": "Yes, of course. Packing the kitchen is one of our most popular options. So let me work out the price. The basic move for a three-bedroom house is five hundred and ninety pounds. Kitchen packing is ninety-five pounds, so that brings it to six hundred and eighty-five pounds."
+},
+{
+"v": "bm_daniel",
+"t": "And does that include the extra person for the piano?"
+},
+{
+"v": "bf_emma",
+"t": "Yes, it does. We don't charge separately for that at the moment. So the total is six hundred and eighty-five."
+},
+{
+"v": "bm_daniel",
+"t": "Good. How do I pay?"
+},
+{
+"v": "bf_emma",
+"t": "We ask for a deposit of fifty pounds to confirm the date. Normally we'd need it within a week, but because Saturdays are in such demand, could you pay it by Friday?"
+},
+{
+"v": "bm_daniel",
+"t": "This Friday? Yes, that's no problem. I'll do it online."
+},
+{
+"v": "bf_emma",
+"t": "Thank you. We'll also send you some free boxes before the move. Would you like them delivered to your home?"
+},
+{
+"v": "bm_daniel",
+"t": "Actually, nobody's at home during the day, so could you send them to my office instead? It's in the town centre, and there's always someone at reception."
+},
+{
+"v": "bf_emma",
+"t": "Of course. I'll email you to get the office address. And just one last question, for our records. How did you hear about Harbour Removals? Was it our website, or an advert?"
+},
+{
+"v": "bm_daniel",
+"t": "Neither, actually. My neighbour used you last year and said you were very careful, so she recommended you."
+},
+{
+"v": "bf_emma",
+"t": "That's lovely to hear. Well, Mr Pelham, that's all booked. You'll get an email confirmation in the next hour."
+},
+{
+"v": "bm_daniel",
+"t": "Great. Thanks very much for your help."
+},
+{
+"v": "bm_george",
+"t": "That is the end of Part 1. You now have one minute to check your answers to Part 1."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now turn to Part 2. You will hear a ranger talking to a group of volunteers at a nature reserve. First, you have some time to look at questions 11 to 15."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen carefully and answer questions 11 to 15."
+},
+{
+"v": "bf_isabella",
+"t": "Good morning, everyone, and welcome to Ashcombe Wetland Reserve. My name's Helen, and I'm one of the rangers here. Thank you all for giving up your Saturday to help us. Before we split into groups, I'd like to tell you a little about the reserve and how the day will work."
+},
+{
+"v": "bf_isabella",
+"t": "Ashcombe was not always a nature reserve. Until about thirty years ago, this whole area was used for digging sand and gravel for the building industry. People often assume it was farmland, and in fact there were a few small farms on the edges, but the lakes you can see are actually old quarry pits that filled with water once the digging stopped."
+},
+{
+"v": "bf_isabella",
+"t": "The reserve is now owned by a charity, the Ashcombe Trust. The local council helped with the purchase, but the majority of the money came from members of the public, who raised it in just eighteen months. Today our running costs are covered mainly by membership fees, although the café helps too."
+},
+{
+"v": "bf_isabella",
+"t": "We're best known for our birds. In winter we get thousands of ducks and geese, and many visitors come for those. But what has really put Ashcombe on the map in the last few years is the bittern. It's a shy brown bird that lives in the reeds, and it had disappeared from this part of the country. Three pairs now breed here, and that's why reed management is such an important part of our work."
+},
+{
+"v": "bf_isabella",
+"t": "A quick word about safety. The paths are flat, but some can be muddy after rain, so please stay on the marked routes. The most important rule, though, concerns the water. Some of the lakes are very deep close to the edge, so nobody should go into the water for any reason, even to pick up litter. If something needs to be taken out of the water, tell your group leader, and a member of staff with the right equipment will deal with it."
+},
+{
+"v": "bf_isabella",
+"t": "For lunch, we'll all meet at the education centre at half past twelve. Soup and sandwiches will be provided, so you don't need to buy anything. The café will also be open, but please don't go there in your boots, as the staff have only just had new carpets fitted."
+},
+{
+"v": "bm_george",
+"t": "Before you hear the rest of the talk, you have some time to look at questions 16 to 20."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen and answer questions 16 to 20."
+},
+{
+"v": "bf_isabella",
+"t": "Right, now let me tell you what each group will be doing today. You'll see that the groups are named after animals you can find on the reserve."
+},
+{
+"v": "bf_isabella",
+"t": "The Kingfisher group will be working near the main lake. I was going to ask you to count the birds there, but the experts from the bird society are doing that this morning. So instead, you'll be repairing the fences along the lake path. Several posts were knocked down in the storm last month."
+},
+{
+"v": "bf_isabella",
+"t": "The Heron group has the job that matters most for the bitterns. You'll be cutting and clearing reeds in the western reed bed. If the reeds get too old and dry, the birds stop using them, so this keeps the habitat fresh."
+},
+{
+"v": "bf_isabella",
+"t": "Otter group, you'll be at the workshop behind the visitor centre. The local school has asked us for some nest boxes for their grounds, so you'll be building those. Don't worry if you're not good with tools, there will be someone there to show you how."
+},
+{
+"v": "bf_isabella",
+"t": "The Swallow group will be in the northern meadow, which used to be a car park. We have two hundred young trees waiting there, mostly oak and hazel, and they all need planting today."
+},
+{
+"v": "bf_isabella",
+"t": "And finally, Dragonfly group. You might think the litter would be a problem, but actually our visitors are very good about that. What we do need is for some of our signs to be repainted. The paint is waiting in the storeroom, and you'll be working along the river path."
+},
+{
+"v": "bf_isabella",
+"t": "Okay, so if you could all find your group leaders, they're holding the coloured flags, and we'll get started."
+},
+{
+"v": "bm_george",
+"t": "That is the end of Part 2. You now have thirty seconds to check your answers to Part 2."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now turn to Part 3. You will hear two students, Leah and Marcus, talking to their tutor, Dr Okafor, about their research project on packaging waste. First, you have some time to look at questions 21 to 26."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen carefully and answer questions 21 to 26."
+},
+{
+"v": "bm_fable",
+"t": "Come in, both of you. So, how's the project on supermarket packaging going?"
+},
+{
+"v": "bf_lily",
+"t": "Quite well, I think. We've finished collecting the data from the three supermarkets, and we've started writing it up."
+},
+{
+"v": "bm_fable",
+"t": "Good. And what did you find most useful in the early stages?"
+},
+{
+"v": "bm_lewis",
+"t": "Well, there were two things. The first was the visit to the recycling centre. Seeing how much plastic film can't actually be recycled was really eye-opening."
+},
+{
+"v": "bf_lily",
+"t": "And the second was the interviews with shoppers. We'd expected people to say price was all they cared about, but quite a few talked about packaging without being asked."
+},
+{
+"v": "bm_lewis",
+"t": "We also read a lot of government reports, but to be honest they weren't very helpful. Most of the figures were five or six years old."
+},
+{
+"v": "bm_fable",
+"t": "That's often the problem. And did you get any response from the supermarket head offices?"
+},
+{
+"v": "bf_lily",
+"t": "Only one replied, and they just sent us a link to their website. So no, that wasn't much use."
+},
+{
+"v": "bm_fable",
+"t": "Now, you chose to look only at fresh fruit and vegetables. Why was that?"
+},
+{
+"v": "bm_lewis",
+"t": "We did consider looking at everything, but there's just too much variety. With fruit and vegetables, it's possible to compare the same product, say a kilo of apples, sold loose and in plastic."
+},
+{
+"v": "bf_lily",
+"t": "We also thought about meat, because there's so much packaging there, but there are hygiene rules that mean it has to be wrapped, so it seemed unfair to compare."
+},
+{
+"v": "bm_fable",
+"t": "Sensible. What was the most surprising result?"
+},
+{
+"v": "bf_lily",
+"t": "I think it was that the loose fruit wasn't always cheaper. We'd assumed it would be, but in two of the three supermarkets, some loose products actually cost more per kilo than the packed ones."
+},
+{
+"v": "bm_lewis",
+"t": "Yes, that changes the argument quite a lot. People say they'd buy loose fruit if it were cheaper, but in many cases it already is the same price or cheaper, and they still don't."
+},
+{
+"v": "bm_fable",
+"t": "Interesting. So why do you think shoppers still choose packed products?"
+},
+{
+"v": "bm_lewis",
+"t": "From the interviews, the main reason was convenience. People said it was quicker to pick up a bag than to choose and weigh individual items."
+},
+{
+"v": "bf_lily",
+"t": "Some people mentioned that packed fruit lasts longer, but when we checked the research on that, the evidence was quite mixed."
+},
+{
+"v": "bm_fable",
+"t": "And how did you collect the prices? Did you visit at the same time each week?"
+},
+{
+"v": "bm_lewis",
+"t": "We went every Tuesday morning for six weeks. We avoided weekends, because some stores change prices for special offers on Saturdays."
+},
+{
+"v": "bm_george",
+"t": "Before you hear the rest of the discussion, you have some time to look at questions 27 to 30."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen and answer questions 27 to 30."
+},
+{
+"v": "bm_fable",
+"t": "Right, let's look at the structure of your report. I've read your draft. Let's go through the sections."
+},
+{
+"v": "bf_lily",
+"t": "The introduction is quite long at the moment, isn't it?"
+},
+{
+"v": "bm_fable",
+"t": "It is. It's well written, but you spend a whole page on the history of plastic. I'd cut that down to a paragraph."
+},
+{
+"v": "bm_lewis",
+"t": "Okay, we'll shorten the introduction. What about the methods section?"
+},
+{
+"v": "bm_fable",
+"t": "That's actually very clear. I wouldn't change anything there."
+},
+{
+"v": "bf_lily",
+"t": "Great. And the price tables? They take up four pages."
+},
+{
+"v": "bm_fable",
+"t": "The tables are important, but they break up the argument. Put the full tables at the end, in an appendix, and just give a summary in the main text."
+},
+{
+"v": "bm_lewis",
+"t": "Right. And the interview section, is that okay?"
+},
+{
+"v": "bm_fable",
+"t": "This is where I think you could do more. You interviewed forty shoppers, but you only report on about ten of them. You need to include figures for all forty, for example how many mentioned convenience."
+},
+{
+"v": "bf_lily",
+"t": "So we need to add more data there. That makes sense."
+},
+{
+"v": "bm_fable",
+"t": "Good. Send me the next draft by the end of the month and we'll meet again."
+},
+{
+"v": "bm_george",
+"t": "That is the end of Part 3. You now have thirty seconds to check your answers to Part 3."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now turn to Part 4. You will hear a lecture about the concrete used in ancient Rome. You now have forty-five seconds to look at questions 31 to 40."
+},
+{
+"pause": 45
+},
+{
+"v": "bm_george",
+"t": "Now listen carefully and answer questions 31 to 40."
+},
+{
+"v": "bf_alice",
+"t": "Good afternoon. Today I want to talk about one of the most remarkable building materials in history: the concrete used by the ancient Romans. Many Roman structures, such as the Pantheon in Rome, whose great dome is still the largest unsupported concrete dome in the world, are nearly two thousand years old. Modern concrete, by contrast, often begins to crack within fifty years. So what was the Romans' secret?"
+},
+{
+"v": "bf_alice",
+"t": "Let's start with the ingredients. Roman concrete was made from lime, water and rock fragments, but the key ingredient was a type of volcanic ash. The best ash came from the area around the Bay of Naples, near the town of Pozzuoli, which is why this ash is still known today as pozzolana."
+},
+{
+"v": "bf_alice",
+"t": "For a long time, scientists believed the Romans mixed the lime with water first, before adding the other materials. However, recent studies suggest they used a technique called hot mixing. Instead of slaked lime, they added quicklime directly to the mixture. This reaction produces a great deal of heat, and it leaves small white lumps of lime in the concrete. These lumps were once thought to be a sign of poor mixing, but they turn out to be essential."
+},
+{
+"v": "bf_alice",
+"t": "Here's why. When a crack forms in the concrete, water gets into it. The water reaches the lime lumps and dissolves some of the lime, which then forms new crystals of calcium carbonate. These crystals fill the crack. In other words, the concrete is able to repair itself. In laboratory tests, researchers made samples of this concrete and deliberately cracked them. Within two weeks, the cracks had completely closed."
+},
+{
+"v": "bf_alice",
+"t": "The Romans were particularly skilled at building in the sea. Harbour walls built with Roman concrete have survived for centuries, while modern concrete in seawater tends to corrode. Seawater flowing through the Roman material actually helps a rare mineral to grow inside it, and this makes the concrete stronger over time, not weaker."
+},
+{
+"v": "bf_alice",
+"t": "Of course, Roman concrete was not perfect. It was much weaker than modern concrete when first made, and it took a long time to harden. It could also not be combined with steel, which is what allows modern engineers to build tall towers and long bridges. So nobody is suggesting that we simply go back to Roman methods."
+},
+{
+"v": "bf_alice",
+"t": "But there are good reasons to learn from them. The production of modern cement is responsible for around eight per cent of global carbon emissions. Roman-style concrete is made at lower temperatures, so it needs less fuel. And because it lasts longer, structures would need replacing less often. One company in the United States is already testing a mixture based on the Roman recipe for use in building foundations."
+},
+{
+"v": "bf_alice",
+"t": "Another area where this research could help is the storage of dangerous waste. Materials used to store nuclear waste need to last for thousands of years, and engineers are interested in whether a self-repairing concrete could be used for this purpose."
+},
+{
+"v": "bf_alice",
+"t": "Finally, I'd like to mention the sources of our knowledge. The most important written source is a Roman engineer called Vitruvius, who described building methods in great detail. But written descriptions only take us so far, and in the end, it was the use of modern microscopes that allowed scientists to understand what was happening inside the material."
+},
+{
+"v": "bf_alice",
+"t": "For next week, please read the article on the reading list about the Pantheon's dome."
+},
+{
+"v": "bm_george",
+"t": "That is the end of Part 4. You now have two minutes to check your answers. That is the end of the Listening test."
+}
+]
+}

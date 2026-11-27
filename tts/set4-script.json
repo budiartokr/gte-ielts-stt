@@ -1,0 +1,407 @@
+{
+"set": 4,
+"segments": [
+{
+"v": "bm_george",
+"t": "IELTS Listening practice test. GTE Practice Set 4."
+},
+{
+"v": "bm_george",
+"t": "In this test, you will hear a number of different recordings and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions, and you will have a chance to check your work. All the recordings will be played once only. The test is in four parts. Now turn to Part 1."
+},
+{
+"v": "bm_george",
+"t": "Part 1. You will hear a woman reporting a lost item to the lost property office at a railway station. First, you have some time to look at questions 1 to 6."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "You will see that there is an example that has been done for you. On this occasion only, the conversation relating to the example is played first."
+},
+{
+"v": "bm_lewis",
+"t": "Northgate Station, lost property office. How can I help you?"
+},
+{
+"v": "bf_lily",
+"t": "Hello. I left a bag on a train yesterday, and I wondered if anyone had handed it in."
+},
+{
+"v": "bm_george",
+"t": "The item lost was a bag, so bag has been written in the space. Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time. Listen carefully and answer questions 1 to 6."
+},
+{
+"v": "bm_lewis",
+"t": "Northgate Station, lost property office. How can I help you?"
+},
+{
+"v": "bf_lily",
+"t": "Hello. I left a bag on a train yesterday, and I wondered if anyone had handed it in."
+},
+{
+"v": "bm_lewis",
+"t": "I'm sorry to hear that. Let me take some details and I'll check our records. Can I have your name, please?"
+},
+{
+"v": "bf_lily",
+"t": "Yes, it's Sophie Marsden."
+},
+{
+"v": "bm_lewis",
+"t": "Is that M, A, R, S, D, E, N?"
+},
+{
+"v": "bf_lily",
+"t": "That's right."
+},
+{
+"v": "bm_lewis",
+"t": "Thank you. And what kind of bag was it? A handbag, a suitcase?"
+},
+{
+"v": "bf_lily",
+"t": "It's a rucksack. A medium-sized one, the kind you'd take walking."
+},
+{
+"v": "bm_lewis",
+"t": "And the colour?"
+},
+{
+"v": "bf_lily",
+"t": "Everyone assumes it's black, because most of them are, but it's actually dark green, with a grey strap at the top."
+},
+{
+"v": "bm_lewis",
+"t": "Dark green. Okay. And which train were you on? Where were you travelling from?"
+},
+{
+"v": "bf_lily",
+"t": "I got on at Oxford and came here to Northgate."
+},
+{
+"v": "bm_lewis",
+"t": "Do you remember what time the train left?"
+},
+{
+"v": "bf_lily",
+"t": "I was going to catch the seven fifteen, but I missed it, so I got the next one, which was the seven forty-five."
+},
+{
+"v": "bm_lewis",
+"t": "The seven forty-five from Oxford. That one's usually quite crowded. Do you remember where you were sitting?"
+},
+{
+"v": "bf_lily",
+"t": "I didn't have a seat at first, so I stood near the doors and put the bag down on the floor next to me. Then I got a seat further along, and I must have forgotten it."
+},
+{
+"v": "bm_lewis",
+"t": "So the bag was by the doors. Right."
+},
+{
+"v": "bm_george",
+"t": "Before the conversation continues, you have some time to look at questions 7 to 10."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen and answer questions 7 to 10."
+},
+{
+"v": "bm_lewis",
+"t": "Can you tell me what was inside the bag? That helps us identify it."
+},
+{
+"v": "bf_lily",
+"t": "Well, there was a waterproof jacket, but that's not important. The thing I'm really worried about is my camera. It's quite an expensive one."
+},
+{
+"v": "bm_lewis",
+"t": "A camera. Anything else?"
+},
+{
+"v": "bf_lily",
+"t": "A library book. It's a book about birds, a guide to the birds of Britain. I'd hate to have to pay for that. Oh, and my purse wasn't in it, thankfully. That was in my coat pocket."
+},
+{
+"v": "bm_lewis",
+"t": "Okay. Now, if the bag is handed in, how would you like us to contact you? We can phone, text or email."
+},
+{
+"v": "bf_lily",
+"t": "I'm at work all day and I can't really take calls, so email would be best."
+},
+{
+"v": "bm_lewis",
+"t": "Fine. I'll take your email address in a moment. And if we do find it, you'll need to collect it in person, with some identification."
+},
+{
+"v": "bf_lily",
+"t": "When is the office open?"
+},
+{
+"v": "bm_lewis",
+"t": "Monday to Friday, we're open from eight in the morning. We used to close at six, but now we stay open until half past six. At weekends it's ten until four."
+},
+{
+"v": "bf_lily",
+"t": "Half past six is good, I can come after work. Thank you so much."
+},
+{
+"v": "bm_lewis",
+"t": "You're welcome. Now, your email address, please."
+},
+{
+"v": "bm_george",
+"t": "That is the end of Part 1. You now have one minute to check your answers to Part 1."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now turn to Part 2. You will hear the manager of a city farm talking to a group of new volunteers. First, you have some time to look at questions 11 to 15."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen carefully and answer questions 11 to 15."
+},
+{
+"v": "bm_daniel",
+"t": "Hello, everyone, and welcome to Millbrook City Farm. I'm Ben, the farm manager. It's great to see so many new volunteers. I'm going to give you a bit of background, and then I'll take you through the different parts of the farm."
+},
+{
+"v": "bm_daniel",
+"t": "Millbrook started in nineteen eighty-two. People often think it was set up by the council, but in fact it was a group of parents from the local primary school. They wanted their children to see where food comes from, and they persuaded the owner of a disused railway yard to let them use the land."
+},
+{
+"v": "bm_daniel",
+"t": "These days we have around sixty thousand visitors a year. Entry is still free, as it always has been, and we rely on donations, the shop and a grant from a national charity. Our biggest group of visitors is actually schools. We welcome about two hundred school groups every year, which is more than all our weekend family visitors put together."
+},
+{
+"v": "bm_daniel",
+"t": "As volunteers, you'll each work one regular half-day a week. We're not too worried about previous experience with animals. What matters most to us is reliability. If you say you'll be here on a Tuesday morning, the animals and the staff are depending on you. If you can't come, please phone, rather than sending an email, because we don't always check emails during the day."
+},
+{
+"v": "bm_daniel",
+"t": "You'll all be given a uniform, which is a green sweatshirt, but please bring your own boots. And one important rule: for hygiene reasons, you must wash your hands every time you leave an animal area. There are sinks at every exit."
+},
+{
+"v": "bm_george",
+"t": "Before you hear the rest of the talk, you have some time to look at questions 16 to 20."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen and answer questions 16 to 20."
+},
+{
+"v": "bm_daniel",
+"t": "Now let me tell you about the different areas. Starting with the goat barn. This is one of the most popular places for visitors. We've recently had three new kids born, that's baby goats, so it's very busy at the moment. You'll notice signs asking people not to feed the goats. That's very important, because visitors' snacks make them ill."
+},
+{
+"v": "bm_daniel",
+"t": "Next is the pond. It's quite deep in the middle, so any child under twelve must be with an adult in this area at all times. Please remind parents if you see a child on their own there."
+},
+{
+"v": "bm_daniel",
+"t": "The vegetable garden is the oldest part of the farm, and it's looked after entirely by volunteers, so some of you will be working there. The staff don't really have the time, so the volunteers make all the decisions about what to plant."
+},
+{
+"v": "bm_daniel",
+"t": "Then there's the pony paddock. Last year we bought the field next door, so the paddock is now twice the size it used to be, which the ponies are very happy about."
+},
+{
+"v": "bm_daniel",
+"t": "And finally, the farm shop. It sells our own eggs, honey and vegetables. It used to be open all day, but now we only open it in the mornings, because that's when most of our visitors come. So if you want to buy eggs, make sure you go before lunch."
+},
+{
+"v": "bm_daniel",
+"t": "One more thing about the whole site. We have a café near the main gate, which is run by a local social enterprise, and as volunteers you'll get a free hot drink there on the days you work. There's also a small staff room with lockers behind the office, so you can leave your bags and coats there. Please don't leave anything valuable in the barns, as visitors walk through them all day. If you have any questions at all, you can ask any member of staff, they all wear red sweatshirts, so they're easy to spot."
+},
+{
+"v": "bm_daniel",
+"t": "Right, let's go and meet the animals."
+},
+{
+"v": "bm_george",
+"t": "That is the end of Part 2. You now have thirty seconds to check your answers to Part 2."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now turn to Part 3. You will hear two business students, Priya and Tom, discussing a survey they are doing about a four-day working week. First, you have some time to look at questions 21 to 26."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen carefully and answer questions 21 to 26."
+},
+{
+"v": "bf_emma",
+"t": "So, Tom, have you looked at the results from the pilot survey yet?"
+},
+{
+"v": "bm_lewis",
+"t": "Yes, I went through them last night. We had twenty-four responses from the staff at the design company."
+},
+{
+"v": "bf_emma",
+"t": "That's fewer than we hoped for. Why do you think the response rate was so low?"
+},
+{
+"v": "bm_lewis",
+"t": "Well, I wondered if the questionnaire was too long, but most people who started it did finish it. I think the real problem was the timing. We sent it out in the same week as their annual staff review, so everyone was busy."
+},
+{
+"v": "bf_emma",
+"t": "That makes sense. We'll avoid that next time. What did you notice about the answers?"
+},
+{
+"v": "bm_lewis",
+"t": "The most interesting thing was the question about productivity. I expected people to say they'd get less done in four days, but most of them said they'd actually work more efficiently, because they'd have fewer meetings."
+},
+{
+"v": "bf_emma",
+"t": "That fits with what we read in the article about the trial in Iceland. What about the question on which day people would prefer to have off?"
+},
+{
+"v": "bm_lewis",
+"t": "That was a surprise too. I thought Friday would be the obvious choice, but quite a lot of people wanted Wednesday, so the week would be split into two shorter blocks."
+},
+{
+"v": "bf_emma",
+"t": "Interesting. I think one of our questions was badly worded, though. The one asking whether people would accept a lower salary."
+},
+{
+"v": "bm_lewis",
+"t": "Yes, people seemed confused about whether it meant a lower salary per hour or in total. We should rewrite that."
+},
+{
+"v": "bf_emma",
+"t": "Now, our tutor said we should look at both benefits and possible problems. Which problems came up most in the comments?"
+},
+{
+"v": "bm_lewis",
+"t": "The two that came up again and again were customer service, because clients expect to be able to reach the company five days a week, and childcare. A few people said their childcare is arranged for five days and would be hard to change."
+},
+{
+"v": "bf_emma",
+"t": "Some people mentioned stress, didn't they?"
+},
+{
+"v": "bm_lewis",
+"t": "Only one person, and they thought it would reduce stress, not increase it. A couple mentioned their commute, but they thought it would be an advantage."
+},
+{
+"v": "bm_george",
+"t": "Before you hear the rest of the discussion, you have some time to look at questions 27 to 30."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now listen and answer questions 27 to 30."
+},
+{
+"v": "bf_emma",
+"t": "Okay, so let's plan the next stage. First, I think we need to contact the manager at the design company again, to get permission for the main survey."
+},
+{
+"v": "bm_lewis",
+"t": "Agreed. Then we send out the revised questionnaire, with the salary question rewritten."
+},
+{
+"v": "bf_emma",
+"t": "And this time, after the questionnaire, we'll do some interviews. I think it's better to talk to people during their lunch break, rather than after work, when they'll want to go home."
+},
+{
+"v": "bm_lewis",
+"t": "Fine. And for the analysis, I'd rather not use the statistics software from the library. It's very complicated. A spreadsheet should be enough for the numbers we'll have."
+},
+{
+"v": "bf_emma",
+"t": "Good. Let's do it that way, then."
+},
+{
+"v": "bm_george",
+"t": "That is the end of Part 3. You now have thirty seconds to check your answers to Part 3."
+},
+{
+"pause": 30
+},
+{
+"v": "bm_george",
+"t": "Now turn to Part 4. You will hear a lecture about the effects of noise on whales. You now have forty-five seconds to look at questions 31 to 40."
+},
+{
+"pause": 45
+},
+{
+"v": "bm_george",
+"t": "Now listen carefully and answer questions 31 to 40."
+},
+{
+"v": "bf_isabella",
+"t": "Good morning. In today's lecture, I'm going to look at a type of pollution that most people never think about: noise in the ocean, and in particular how it affects whales."
+},
+{
+"v": "bf_isabella",
+"t": "Sound travels very well underwater, in fact about four and a half times faster than it does in air, and over much greater distances. For animals living in the ocean, where light only reaches a few hundred metres down, hearing is therefore the most important sense. Whales use sound to find food, to navigate and, above all, to communicate. The songs of some large whales can be heard by other whales hundreds of kilometres away."
+},
+{
+"v": "bf_isabella",
+"t": "Over the last century, the ocean has become a much noisier place. The largest single source of noise is shipping. Large cargo ships produce low-frequency sound, mainly from their propellers, and this happens to be the same range of frequencies that large whales use to communicate. In some busy shipping lanes, background noise has doubled every decade since the nineteen sixties."
+},
+{
+"v": "bf_isabella",
+"t": "There are other sources too. Companies searching for oil and gas under the seabed use air guns, which send extremely loud pulses of sound into the water every few seconds, sometimes for weeks. Military sonar is another concern, and it has been linked to several cases of whales stranding themselves on beaches."
+},
+{
+"v": "bf_isabella",
+"t": "So how does this noise affect whales? One effect is known as masking. This is when the noise covers the sounds that whales are trying to hear, rather like trying to have a conversation at a loud party. Whales respond in various ways. Some species call more loudly, others repeat their calls more often, and some simply stop calling until the noise has passed."
+},
+{
+"v": "bf_isabella",
+"t": "Noise also causes stress. One of the most interesting pieces of evidence comes from an accidental experiment. In the days after the attacks of September the eleventh, two thousand and one, shipping in the Bay of Fundy, off the coast of Canada, was greatly reduced. Researchers who happened to be collecting samples of whale faeces found that levels of stress hormones in the whales dropped significantly during that quiet period."
+},
+{
+"v": "bf_isabella",
+"t": "It's worth adding that the effects are not limited to whales. Fish such as cod and haddock also use sound to find partners, and studies have shown that some young fish are less able to escape from predators when there is loud boat noise nearby. Even small animals like crabs and shellfish appear to be affected, although far less research has been done on them. So when we talk about noise, we are really talking about the health of whole ocean communities, not just a few famous species."
+},
+{
+"v": "bf_isabella",
+"t": "The good news is that, unlike chemical pollution, noise stops as soon as its source is removed. It doesn't stay in the environment. And there are some practical solutions."
+},
+{
+"v": "bf_isabella",
+"t": "The simplest is for ships to slow down. A trial off the coast of Vancouver asked ships to reduce their speed voluntarily in an area where killer whales feed, and noise levels fell by up to half. Slower ships also use less fuel, so there's an economic benefit as well."
+},
+{
+"v": "bf_isabella",
+"t": "Ship design can also help. Much of the noise comes from bubbles forming around the propeller, and new propeller designs can reduce this. For air guns, one technique is to surround the area with a curtain of bubbles, which absorbs some of the sound."
+},
+{
+"v": "bf_isabella",
+"t": "Finally, it's important to protect quiet areas. Some scientists are calling for the creation of marine quiet zones, where noisy activities would be limited during the seasons when whales give birth. In the next lecture, we'll look at how these zones could be monitored."
+},
+{
+"v": "bm_george",
+"t": "That is the end of Part 4. You now have two minutes to check your answers. That is the end of the Listening test."
+}
+]
+}
